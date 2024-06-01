@@ -1,0 +1,77 @@
+/* Загальні стилі */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffe6f0; /* Ніжно-рожевий фон */
+    color: #333; /* Темно-сірий текст */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff99cc; /* Насичений рожевий */
+    color: white;
+    padding: 1em;
+}
+
+nav {
+    text-align: left; /* Вирівнювання по лівому краю */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+
+main {
+    padding: 2em;
+}
+
+footer {
+    background-color: #ff99cc; /* Насичений рожевий */
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Стилі для сторінки "Про нас" */
+section {
+    background-color: #ffccdd; /* Світло-рожевий */
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+/* Стилі для форми зв'язку на сторінці "Контакти" */
+form {
+    margin-top: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: #ff99cc; /* Насичений рожевий */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff66b3; /* Темно-рожевий при наведенні */
+}

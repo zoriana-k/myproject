@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Весняні квіти</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section>
+            <h2>Зв'яжіться з нами</h2>
+            <p>Якщо у вас є питання або пропозиції, будь ласка, напишіть нам:</p>
+            <form action="assets/php/contact.php" method="post">
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Повідомлення:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Відправити</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Всі права захищені</p>
+    </footer>
+</body>
+</html>
